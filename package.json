@@ -111,6 +111,7 @@
   ],
   "homepage": "https://github.com/irath96/electron-react-typescript-boilerplate#readme",
   "devDependencies": {
+    "@skidding/react-codemirror": "^1.0.2",
     "@types/enzyme": "^3.1.1",
     "@types/history": "^4.5.2",
     "@types/jest": "^22.0.0",
@@ -131,7 +132,7 @@
     "css-loader": "^0.28.4",
     "css-modules-require-hook": "^4.0.6",
     "devtron": "^1.4.0",
-    "electron": "1.8.8",
+    "electron": "2.0.9",
     "electron-builder": "^19.8.0",
     "electron-builder-http": "^19.15.0",
     "electron-devtools-installer": "^2.0.1",
@@ -160,8 +161,7 @@
     "webpack": "^3.3.0",
     "webpack-dev-middleware": "^2.0.3",
     "webpack-hot-middleware": "^2.13.2",
-    "webpack-merge": "^4.1.1",
-    "@skidding/react-codemirror": "^1.0.2"
+    "webpack-merge": "^4.1.1"
   },
   "dependencies": {
     "electron-debug": "^1.1.0",
@@ -169,6 +169,7 @@
     "history": "^4.6.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-electron-web-view": "^2.0.1",
     "react-redux": "^5.0.1",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
